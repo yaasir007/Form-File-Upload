@@ -55,9 +55,9 @@
 }
 
 @media(max-width: 750px) {
-    .countdown-el span {
-        font-size: .9rem;
-    }
+  .countdown-el span {
+      font-size: .9rem;
+  }
 
 	.main-container {
 		display: flex;
@@ -85,8 +85,8 @@
 
 /* CSS form */
 body{
-    background: #eab8be;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #ffdde1, #f0bdc4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #eab8be;
+    background: -webkit-linear-gradient(to left, #ffdde1, #f0bdc4);
     background: linear-gradient(to left, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
