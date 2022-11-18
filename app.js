@@ -1,8 +1,8 @@
 //Selecting the elements
-const daysEl = document.getElementById("days");
 const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
+const daysEl = document.querySelector('#days');
 
 //Setting deadline date
 const deadlineMamaDay = new Date('May 26, 2022 00:00:00').getTime();
@@ -21,7 +21,6 @@ function countdown() {
   hoursEl.innerHTML = hours;
   minsEl.innerHTML = mins;
   secondsEl.innerHTML = seconds;
-
 };
 
 //inital call to function
